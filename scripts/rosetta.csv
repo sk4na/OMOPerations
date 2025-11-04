@@ -1,0 +1,432 @@
+form;variable;branch;source_value;vocabulary_id;concept_name;concept_code;concept_id;domain_id
+paciente;fecha_ingreso_urgencias;semantic_link;NA;SNOMED;Admisión hospitalaria de urgencia (procedimiento);183452005;4079617;Observation
+paciente;fecha_nacimiento;semantic_link;NA;SNOMED;Fecha de nacimiento (entidad observable);184099003;4083587;Observation
+paciente;edad;semantic_link;NA;SNOMED;edad cronológica actual (entidad observable);424144002;4314456;Observation
+paciente;sexo;semantic_link;NA;SNOMED;Sexo del paciente (entidad observable);184100006;4083588;Observation
+paciente;sexo;semantic_link;0;Gender;MALE;M;8507;Gender
+paciente;sexo;semantic_link;1;Gender;FEMALE;F;8532;Gender
+paciente;sexo;value_link;0;SNOMED;Varón (hallazgo);248153007;442985;Condition
+paciente;sexo;value_link;1;SNOMED;Mujer (hallazgo);248152002;442986;Condition
+paciente;codigo_postal;semantic_link;NA;SNOMED;Código postal del paciente (entidad observable);184102003;4083591;Observation
+paciente;mujer_gestante;semantic_link;NA;SNOMED;Gravida;161732006;4060186;Observation
+paciente;mujer_gestante;value_link;0;SNOMED;negativo (calificador);260385009;9189;Observation
+paciente;mujer_gestante;value_link;1;SNOMED;positivo (calificador);10828004;9191;Condition
+paciente;mayor_65;semantic_link;NA;SNOMED;Persona clasificada según su edad (persona);410598002;4132643;Observation
+paciente;mayor_65;value_link;1;SNOMED;Edad mayor de 65 años (hallazgo);102528008;4010349;Condition
+paciente;paciente_residencia;semantic_link;NA;SNOMED;Condiciones de vivienda y alojamiento (entidad observable);224209007;4073471;Observation
+paciente;paciente_residencia;value_link;0;SNOMED;Vive en casa propia (hallazgo);160943002;4059643;Observation
+paciente;paciente_residencia;value_link;1;SNOMED;Vive en vivienda subsidiada (hallazgo);224220007;4074789;Observation
+comorbilidad;infarto;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;infarto;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;infarto;value_link;0;SNOMED;infarto de miocardio (trastorno);22298006;4329847;Condition
+comorbilidad;infarto;value_link;1;SNOMED;infarto de miocardio (trastorno);22298006;4329847;Condition
+comorbilidad;insuficiencia_cardiaca;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;insuficiencia_cardiaca;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;insuficiencia_cardiaca;value_link;0;SNOMED;Congestive heart failure (disorder);42343007;319835;Condition
+comorbilidad;insuficiencia_cardiaca;value_link;1;SNOMED;Congestive heart failure (disorder);42343007;319835;Condition
+comorbilidad;evp;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;evp;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;evp;value_link;0;SNOMED;Peripheral vascular disease (disorder);400047006;321052;Condition
+comorbilidad;evp;value_link;1;SNOMED;Peripheral vascular disease (disorder);400047006;321052;Condition
+comorbilidad;e_cerebrovascular;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;e_cerebrovascular;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;e_cerebrovascular;value_link;0;SNOMED;Cerebrovascular accident (disorder);230690007;381316;Condition
+comorbilidad;e_cerebrovascular;value_link;1;SNOMED;Cerebrovascular accident (disorder);230690007;381316;Condition
+comorbilidad;demencia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;demencia;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;demencia;value_link;0;SNOMED;Dementia (disorder);52448006;4182210;Condition
+comorbilidad;demencia;value_link;1;SNOMED;Dementia (disorder);52448006;4182210;Condition
+comorbilidad;e_pulmonar_cronica;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;e_pulmonar_cronica;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;e_pulmonar_cronica;value_link;0;SNOMED;Chronic obstructive pulmonary disease (disorder);13645005;255573;Condition
+comorbilidad;e_pulmonar_cronica;value_link;1;SNOMED;Chronic obstructive pulmonary disease (disorder);13645005;255573;Condition
+comorbilidad;ulcera_peptica;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;ulcera_peptica;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;ulcera_peptica;value_link;0;SNOMED;Peptic ulcer (disorder);13200003;4027663;Condition
+comorbilidad;ulcera_peptica;value_link;1;SNOMED;Peptic ulcer (disorder);13200003;4027663;Condition
+comorbilidad;colagenopatia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;colagenopatia;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;colagenopatia;value_link;0;SNOMED;Disorder of connective tissue (disorder);105969002;253549;Condition
+comorbilidad;colagenopatia;value_link;1;SNOMED;Disorder of connective tissue (disorder);105969002;253549;Condition
+comorbilidad;hemiplejia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;hemiplejia;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;hemiplejia;value_link;0;SNOMED;Hemiplegia (disorder);50582007;374022;Condition
+comorbilidad;hemiplejia;value_link;2;SNOMED;Hemiplegia (disorder);50582007;374022;Condition
+comorbilidad;erc;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;erc;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;erc;value_link;0;SNOMED;Chronic kidney disease (disorder);709044004;46271022;Condition
+comorbilidad;erc;value_link;2;SNOMED;Chronic kidney disease (disorder);709044004;46271022;Condition
+comorbilidad;neoplasia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;neoplasia;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;neoplasia;semantic_link;6;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;neoplasia;value_link;0;SNOMED;neoplasia maligna (trastorno);363346000;443392;Condition
+comorbilidad;neoplasia;value_link;2;SNOMED;neoplasia maligna (trastorno);363346000;443392;Condition
+comorbilidad;neoplasia;value_link;6;SNOMED;neoplasia maligna metastásica (trastorno);128462008;432851;Condition
+comorbilidad;tipo_cancer;semantic_link;NA;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;tipo_cancer;value_link;ALL;ICD10;NA;EMBEDDED;NA;NA
+comorbilidad;linfoma;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;linfoma;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;linfoma;value_link;0;SNOMED;Malignant lymphoma (disorder);118600007;432571;Condition
+comorbilidad;linfoma;value_link;2;SNOMED;Malignant lymphoma (disorder);118600007;432571;Condition
+comorbilidad;leucemia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;leucemia;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;leucemia;value_link;0;SNOMED;Leukemia, disease (disorder);93143009;317510;Condition
+comorbilidad;leucemia;value_link;2;SNOMED;Leukemia, disease (disorder);93143009;317510;Condition
+comorbilidad;sida;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;sida;semantic_link;6;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;sida;value_link;0;SNOMED;Acquired immune deficiency syndrome (disorder);62479008;4267414;Condition
+comorbilidad;sida;value_link;6;SNOMED;Acquired immune deficiency syndrome (disorder);62479008;4267414;Condition
+comorbilidad;hepatopatia;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;hepatopatia;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;hepatopatia;semantic_link;3;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;hepatopatia;value_link;0;SNOMED;enfermedad del hígado (trastorno);235856003;194984;Condition
+comorbilidad;hepatopatia;value_link;1;SNOMED;enfermedad del hígado (trastorno);235856003;194984;Condition
+comorbilidad;hepatopatia;value_link;3;SNOMED;enfermedad del hígado (trastorno);235856003;194984;Condition
+comorbilidad;tipo_hepatopatia;semantic_link;NA;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;tipo_hepatopatia;value_link;K70;ICD10;Enfermedad alcoholica de higado;K70;201612;Condition
+comorbilidad;tipo_hepatopatia;value_link;K71;ICD10;Enfermedad toxica de higado;K71;4055224;Condition
+comorbilidad;tipo_hepatopatia;value_link;K72;ICD10;Insuficiencia hepatica, no clasificada bajo otro concepto;K72;4245975;Condition
+comorbilidad;tipo_hepatopatia;value_link;K73;ICD10;Hepatitis cronica, no clasificada bajo otro concepto;K73;200763;Condition
+comorbilidad;tipo_hepatopatia;value_link;K74;ICD10;Fibrosis y cirrosis de higado;K74;4267417;Condition
+comorbilidad;tipo_hepatopatia;value_link;K75;ICD10;Otras enfermedades inflamatorias de higado;K75;194990;Condition
+comorbilidad;tipo_hepatopatia;value_link;K76;ICD10;Otras enfermedades de higado;K76;194984;Condition
+comorbilidad;tipo_hepatopatia;value_link;K77;ICD10;Trastornos hepaticos en enfermedades clasificadas bajo otro concepto;K77;194984;Condition
+comorbilidad;tipo_hepatopatia;value_link;B15;ICD10;Hepatitis aguda tipo A;B15;4098652;Condition
+comorbilidad;tipo_hepatopatia;value_link;B16;ICD10;Hepatitis aguda tipo B;B16;197795;Condition
+comorbilidad;tipo_hepatopatia;value_link;B17;ICD10;Otras hepatitis viricas agudas;B17;4211974;Condition
+comorbilidad;tipo_hepatopatia;value_link;B18;ICD10;Hepatitis virica cronica;B18;4012113;Condition
+comorbilidad;tipo_hepatopatia;value_link;B19;ICD10;Hepatitis virica, no especificada;B19;4291005;Condition
+comorbilidad;tipo_hepatopatia;value_link;P78.81;ICD10;Cirrosis congenita (de higado);P78.81;4064161;Condition
+comorbilidad;tipo_hepatopatia;value_link;E83.110;ICD10;Hemocromatosis hereditaria;E83.110;200524;Condition
+comorbilidad;diabetes;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;diabetes;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;diabetes;semantic_link;2;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;diabetes;value_link;0;SNOMED;Diabetes mellitus without complication (disorder);111552007;4008576;Condition
+comorbilidad;diabetes;value_link;1;SNOMED;Diabetes mellitus without complication (disorder);111552007;4008576;Condition
+comorbilidad;diabetes;value_link;2;SNOMED;Complication due to diabetes mellitus (disorder);74627003;442793;Condition
+comorbilidad;indice_de_charlson;semantic_link;NA;SNOMED;Índice de Comorbilidad de Charlson (escala de evaluación);762713009;42538860;Measurement
+comorbilidad;indice_de_charlson;units_link;NA;UCUM;score;[score];44777566;Unit
+comorbilidad;inmunosupresion;semantic_link;0;SNOMED;sin antecedente de hallazgo clínico en sujeto (situación);443508001;40481925;Observation
+comorbilidad;inmunosupresion;semantic_link;1;SNOMED;estado inmunológico (entidad observable);58915005;4243984;Measurement
+comorbilidad;inmunosupresion;value_link;0;SNOMED;inmunosupresión (hallazgo);38013005;4242843;Condition
+comorbilidad;inmunosupresion;value_link;1;SNOMED;inmunosupresión (hallazgo);38013005;4242843;Condition
+comorbilidad;causa_inmunosupresion;semantic_link;NA;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+comorbilidad;causa_inmunosupresion;value_link;1;SNOMED;trasplante de órgano sólido (procedimiento);313039003;4208341;Procedure
+comorbilidad;causa_inmunosupresion;value_link;2;SNOMED;trasplante de células madre hematopoyéticas (procedimiento);234336002;4120445;Procedure
+comorbilidad;causa_inmunosupresion;value_link;3;SNOMED;neutropenia (hallazgo);165517008;320073;Condition
+comorbilidad;causa_inmunosupresion;value_link;4;SNOMED;tratamiento farmacológico inmunosupresor (procedimiento);707311008;45768802;Procedure
+comorbilidad;causa_inmunosupresion;value_link;5;SNOMED;tratamiento con esteroides (procedimiento);297279009;4180039;Procedure
+comorbilidad;causa_inmunosupresion;value_link;6;SNOMED;quimioterapia (procedimiento);367336001;4273629;Procedure
+comorbilidad;causa_inmunosupresion;value_link;7;SNOMED;radioncología Y/O radioterapia (procedimiento);108290001;4029715;Procedure
+comorbilidad;causa_inmunosupresion;value_link;8;SNOMED;deficiencia inmunológica primaria (trastorno);58606001;4239314;Condition
+comorbilidad;escala_karnofsky;semantic_link;NA;SNOMED;escala funcional de Karnofsky (escala de evaluación);273546003;4169154;Measurement
+comorbilidad;escala_karnofsky;units_link;NA;UCUM;score;[score];44777566;Unit
+sintomas;sintoma;semantic_link;1;SNOMED;Fiebre (hallazgo);386661006;437663;Condition
+sintomas;sintoma;semantic_link;1;OMOP;Fever;437663;437663;437663
+sintomas;sintoma;semantic_link;2;SNOMED;Tos (hallazgo);49727002;254761;Condition
+sintomas;sintoma;semantic_link;3;SNOMED;Dificultad para respirar (hallazgo);230145002;4041664;Condition
+sintomas;sintoma;semantic_link;4;SNOMED;Dolor costal (hallazgo);297217002;4182327;Condition
+sintomas;sintoma;semantic_link;5;SNOMED;Disuria (hallazgo);49650001;197684;Condition
+sintomas;sintoma;semantic_link;6;SNOMED;Síndrome de disuria - polaquiuria (trastorno);7358000;4250655;Condition
+sintomas;sintoma;semantic_link;7;SNOMED;Tenesmo;267053000;4149860;Condition
+sintomas;sintoma;semantic_link;8;SNOMED;Dolor en el ángulo renal (hallazgo);102831002;4012551;Condition
+sintomas;sintoma;semantic_link;9;SNOMED;Náuseas (hallazgo);422587007;31967;Condition
+sintomas;sintoma;semantic_link;10;SNOMED;Vómitos (trastorno);422400008;441408;Condition
+sintomas;sintoma;semantic_link;11;SNOMED;Dolor abdominal (hallazgo);21522001;200219;Condition
+sintomas;sintoma;semantic_link;12;SNOMED;Diarrea (hallazgo);62315008;196523;Condition
+sintomas;sintoma;semantic_link;13;SNOMED;Lesión de la piel (trastorno);95324001;4316083;Condition
+sintomas;sintoma;semantic_link;14;SNOMED;Lesión de mucosa (hallazgo);276320009;4077967;Condition
+sintomas;sintoma;semantic_link;15;SNOMED;Cefalea (hallazgo);25064002;378253;Condition
+sintomas;sintoma;semantic_link;16;SNOMED;Dolor articular (hallazgo);57676002;77074;Condition
+sintomas;duracion_sintoma;semantic_link;NA;SNOMED;Tiempo de duración del síntoma (entidad observable);162442009;4037328;Observation
+sintomas;duracion_sintoma;units_link;NA;UCUM;day;d;8512;Unit
+signos;temperatura;semantic_link;NA;LOINC;temperatura corporal;8310-5;3020891;Measurement
+signos;temperatura;units_link;NA;UCUM;degree Celsius;Cel;586323;Unit
+signos;hipotermia_hipertermia;semantic_link;0;SNOMED;temperatura corporal normal (hallazgo);87273009;4337838;Condition
+signos;hipotermia_hipertermia;semantic_link;1;SNOMED;hipotermia (hallazgo);386689009;435371;Condition
+signos;hipotermia_hipertermia;semantic_link;2;SNOMED;hipertermia (trastorno);1197782006;37162916;Condition
+signos;hipotermia_hipertermia;value_link;0;NA;NA;37;NA;NA
+signos;hipotermia_hipertermia;value_link;1;NA;NA;36;NA;NA
+signos;hipotermia_hipertermia;value_link;2;NA;NA;38;NA;NA
+signos;hipotermia_hipertermia;units_link;0;UCUM;degree Celsius;Cel;586323;Unit
+signos;hipotermia_hipertermia;units_link;1;UCUM;degree Celsius;Cel;586323;Unit
+signos;hipotermia_hipertermia;units_link;2;UCUM;degree Celsius;Cel;586323;Unit
+signos;hipotermia_hipertermia;operator_link;0;SNOMED;símbolo igual = (calificador);276136004;4172703;Meas Value Operator
+signos;hipotermia_hipertermia;operator_link;1;SNOMED;Less-than symbol < (qualifier value);276139006;4171756;Meas Value Operator
+signos;hipotermia_hipertermia;operator_link;2;SNOMED;sGreater-than symbol > (qualifier value);276140008;4172704;Meas Value Operator
+signos;frec_cardiaca;semantic_link;NA;LOINC;frecuencia cardíaca;8867-4;3027018;Measurement
+signos;frec_cardiaca;units_link;NA;UCUM;counts per minute;{counts}/min;8483;Unit
+signos;taquicardia;semantic_link;0;SNOMED;frecuencia cardíaca normal (hallazgo);76863003;4297303;Condition
+signos;taquicardia;semantic_link;1;SNOMED;taquicardia (hallazgo);3424008;444070;Condition
+signos;taquicardia;value_link;1;NA;NA;90;NA;NA
+signos;taquicardia;units_link;1;UCUM;counts per minute;{counts}/min;8483;Unit
+signos;taquicardia;operator_link;1;SNOMED;Greater-than symbol > (qualifier value);276140008;4172704;Meas Value Operator
+signos;frec_respiratoria;semantic_link;NA;LOINC;frecuencia respiratoria;9279-1;3024171;Measurement
+signos;frec_respiratoria;units_link;NA;UCUM;counts per minute;{counts}/min;8483;Unit
+signos;taquipnea;semantic_link;0;SNOMED;frecuencia respiratoria normal (hallazgo);20716004;4049362;Condition
+signos;taquipnea;semantic_link;1;SNOMED;taquipnea (hallazgo);271823003;317376;Condition
+signos;taquipnea;value_link;1;NA;NA;22;NA;NA
+signos;taquipnea;units_link;1;UCUM;counts per minute;{counts}/min;8483;Unit
+signos;taquipnea;operator_link;1;SNOMED;símbolo mayor o igual que (calificador);276138003;4171755;Meas Value Operator
+signos;tension_arterial;semantic_link;NA;LOINC;presión arterial sistólica;8480-6;3004249;Measurement
+signos;tension_arterial;units_link;NA;UCUM;millimeter mercury column;mm[Hg];8876;Unit
+signos;hipotension;semantic_link;0;SNOMED; presión arterial normal (hallazgo);2004005;4065875;Condition
+signos;hipotension;semantic_link;1;SNOMED;hipotensión arterial (trastorno);45007003;317002;Condition
+signos;hipotension;value_link;1;NA;NA;100;NA;NA
+signos;hipotension;units_link;1;UCUM;millimeter mercury column;mm[Hg];8876;Unit
+signos;hipotension;operator_link;1;SNOMED; símbolo menor o igual <= (calificador);276137008;4171754;Meas Value Operator
+signos;saturacion_o2;semantic_link;NA;SNOMED;saturación de hemoglobina con oxígeno (entidad observable);103228002;4011919;Measurement
+signos;saturacion_o2;units_link;NA;UCUM;percent;%;8554;Unit
+signos;hipoxemia;semantic_link;0;SNOMED;hallazgo clínico ausente (situación);373572006;4189457;Observation
+signos;hipoxemia;semantic_link;1;SNOMED;hipoxemia (trastorno);389087006;437390;Condition
+signos;hipoxemia;value_link;0;SNOMED;hipoxemia (trastorno);389087006;437390;Condition
+sepsis;foco;semantic_link;1;SNOMED;Infectious disease of lung (disorder);128601007;4028389;Condition
+sepsis;foco;semantic_link;2;SNOMED;Infectious disease of abdomen (disorder);128070006;4028062;Condition
+sepsis;foco;semantic_link;3;SNOMED;Infection of biliary tract (disorder);846685008;3655135;Condition
+sepsis;foco;semantic_link;4;SNOMED;Urinary tract infectious disease (disorder);68566005;81902;Condition
+sepsis;foco;semantic_link;5;SNOMED;Infectious disease of cardiovascular system (disorder);128402005;4028265;Condition
+sepsis;foco;semantic_link;6;SNOMED;Infection of skin (disorder);108365000;4029043;Condition
+sepsis;foco;semantic_link;7;SNOMED;Infectious disease of central nervous system (disorder);128117002;4028070;Condition
+sepsis;foco;semantic_link;8;SNOMED;Infection of vascular catheter (disorder);429268001;4181811;Condition
+sepsis;foco;semantic_link;9;SNOMED;Upper respiratory infection (disorder);54150009;4181583;Condition
+sepsis;foco;semantic_link;10;SNOMED;Musculoskeletal infective disorder (disorder);312154004;4193176;Condition
+sepsis;foco;semantic_link;11;SNOMED;infección genital (trastorno);312155003;4193988;Condition
+sepsis;foco;semantic_link;12;SNOMED;Infection of uncertain etiology (disorder);428921007;4327875;Condition
+sepsis;sepsis;semantic_link;0;SNOMED;hallazgo clínico ausente (situación);373572006;4189457;Observation
+sepsis;sepsis;semantic_link;1;SNOMED;sepsis (trastorno);91302008;132797;Condition
+sepsis;sepsis;value_link;0;SNOMED;sepsis (trastorno);91302008;132797;Condition
+sepsis;shock_septico;semantic_link;0;SNOMED;hallazgo clínico ausente (situación);373572006;4189457;Observation
+sepsis;shock_septico;semantic_link;1;SNOMED;choque séptico (trastorno);76571007;196236;Condition
+sepsis;shock_septico;value_link;0;SNOMED;choque séptico (trastorno);76571007;196236;Condition
+sepsis;shock_septico;value_link;1;SNOMED;choque séptico (trastorno);76571007;196236;Condition
+sepsis;sofa;semantic_link;NA;LOINC;SOFA total score;96790-1;1616852;Measurement
+sepsis;sofa;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;respiracion;semantic_link;NA;LOINC;Respiration [Score] SOFA;96823-0;1616907;Measurement
+sepsis;respiracion;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;snc_glasgow;semantic_link;NA;LOINC;Central nervous system [Score] SOFA;96827-1;1616439;Measurement
+sepsis;snc_glasgow;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;cardiovascular;semantic_link;NA;LOINC;Cardiovascular [Score] SOFA;96826-3;1617534;Measurement
+sepsis;cardiovascular;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;bilirrubina;semantic_link;NA;LOINC;Liver [Score] SOFA;96825-5;1617043;Measurement
+sepsis;bilirrubina;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;plaquetas;semantic_link;NA;LOINC;Coagulation [Score] SOFA;96824-8;1616896;Measurement
+sepsis;plaquetas;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;creatinina;semantic_link;NA;LOINC;Renal [Score] SOFA;96828-9;1616355;Measurement
+sepsis;creatinina;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;lactato_serico;semantic_link;0;SNOMED;medición sérica de lactato (procedimiento);270982000;4152980;Measurement
+sepsis;lactato_serico;semantic_link;1;SNOMED;medición sérica de lactato (procedimiento);270982000;4152980;Measurement
+sepsis;lactato_serico;value_link;0;NA;NA;2;NA;NA
+sepsis;lactato_serico;value_link;1;NA;NA;2;NA;NA
+sepsis;lactato_serico;units_link;0;UCUM;millimole per liter;mmol/L;8753;Unit
+sepsis;lactato_serico;units_link;1;UCUM;millimole per liter;mmol/L;8753;Unit
+sepsis;lactato_serico;operator_link;0;SNOMED;símbolo menor o igual <= (calificador);276137008;4171754;Meas Value Operator
+sepsis;lactato_serico;operator_link;1;SNOMED;Greater-than symbol > (qualifier value);276140008;4172704;Meas Value Operator
+sepsis;vasopresores;semantic_link;0;SNOMED;procedimiento no realizado (situación);416237000;4168192;Observation
+sepsis;vasopresores;semantic_link;1;SNOMED;Vasopressor therapy (procedure);870386000;3655896;Procedure
+sepsis;vasopresores;value_link;0;SNOMED;Vasopressor therapy (procedure);870386000;3655896;Procedure
+sepsis;proteina_c_reactiva;semantic_link;NA;SNOMED;medición de proteína C - reactiva (procedimiento);55235003;4208414;Measurement
+sepsis;proteina_c_reactiva;units_link;NA;UCUM;milligram per liter;mg/L;8751;Unit
+sepsis;qsofa;semantic_link;NA;LOINC;Quick SOFA score SOFA.quick;96791-9;1616732;Measurement
+sepsis;qsofa;units_link;NA;UCUM;score;[score];44777566;Unit
+sepsis;estado_mental_alterado;semantic_link;0;SNOMED;hallazgo clínico ausente (situación);373572006;4189457;Observation
+sepsis;estado_mental_alterado;semantic_link;1;SNOMED;estado mental alterado (hallazgo);419284004;436222;Observation
+sepsis;estado_mental_alterado;value_link;0;SNOMED;estado mental alterado (hallazgo);419284004;436222;Observation
+sepsis;estado_mental_alterado;value_link;1;SNOMED;estado mental alterado (hallazgo);419284004;436222;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo;semantic_link;1;OMOP Extension;History of event within 1 year;OMOP5165873;1340218;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo;value_link;0;SNOMED;admisión hospitalaria (procedimiento);32485007;8715;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo;value_link;1;SNOMED;admisión hospitalaria (procedimiento);32485007;8715;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_mes_previo;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_mes_previo;semantic_link;1;OMOP Extension;History of event within 1 month;OMOP5165871;1340216;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_mes_previo;value_link;0;SNOMED;admisión hospitalaria (procedimiento);32485007;8715;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_mes_previo;value_link;1;SNOMED;admisión hospitalaria (procedimiento);32485007;8715;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo_uci;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo_uci;semantic_link;1;OMOP Extension;History of event within 1 year;OMOP5165873;1340218;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo_uci;value_link;0;SNOMED;admisión a unidad de cuidados intensivos (procedimiento);305351004;4138933;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hospit_ano_previo_uci;value_link;1;SNOMED;admisión a unidad de cuidados intensivos (procedimiento);305351004;4138933;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_sin_implant;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_sin_implant;semantic_link;1;OMOP Extension;History of event within 1 month;OMOP5165871;1340216;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_sin_implant;value_link;0;SNOMED;procedimiento quirúrgico (procedimiento);387713003;4301351;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_sin_implant;value_link;1;SNOMED;procedimiento quirúrgico (procedimiento);387713003;4301351;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_con_implant;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_con_implant;semantic_link;1;OMOP Extension;History of event within 1 year;OMOP5165873;1340218;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_con_implant;value_link;0;SNOMED;procedimiento de implante (procedimiento);782902008;37204304;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cirugia_previa_con_implant;value_link;1;SNOMED;procedimiento de implante (procedimiento);782902008;37204304;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;asistencia_sanitaria_prev;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;asistencia_sanitaria_prev;semantic_link;1;OMOP Extension;History of event within 1 month;OMOP5165871;1340216;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;asistencia_sanitaria_prev;value_link;0;SNOMED;cirugía ambulatoria (procedimiento);110468005;4004517;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;asistencia_sanitaria_prev;value_link;1;SNOMED;cirugía ambulatoria (procedimiento);110468005;4004517;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hemodialisis_permanente;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hemodialisis_permanente;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hemodialisis_permanente;value_link;0;SNOMED;hemodiálisis (procedimiento);302497006;4120120;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;hemodialisis_permanente;value_link;1;SNOMED;hemodiálisis (procedimiento);302497006;4120120;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;dialisis_peritoneal;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;dialisis_peritoneal;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;dialisis_peritoneal;value_link;0;SNOMED;diálisis peritoneal (procedimiento);71192002;4324124;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;dialisis_peritoneal;value_link;1;SNOMED;diálisis peritoneal (procedimiento);71192002;4324124;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cateter_venoso;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cateter_venoso;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cateter_venoso;value_link;0;SNOMED;colocación de catéter central de inserción periférica (procedimiento);425196008;4322380;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;cateter_venoso;value_link;1;SNOMED;colocación de catéter central de inserción periférica (procedimiento);425196008;4322380;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_urinaria;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_urinaria;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_urinaria;value_link;0;SNOMED;introducción de catéter urinario (procedimiento);720649006;36715149;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_urinaria;value_link;1;SNOMED;introducción de catéter urinario (procedimiento);720649006;36715149;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_nasogastrica;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_nasogastrica;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_nasogastrica;value_link;0;SNOMED;colocación de una sonda nasográstrica (procedimiento);87750000;4227418;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;sonda_nasogastrica;value_link;1;SNOMED;colocación de una sonda nasográstrica (procedimiento);87750000;4227418;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;derivacion_ventriculoper;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;derivacion_ventriculoper;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;derivacion_ventriculoper;value_link;0;SNOMED;inserción de derivación ventriculoperitoneal (procedimiento);47020004;4188466;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;derivacion_ventriculoper;value_link;1;SNOMED;inserción de derivación ventriculoperitoneal (procedimiento);47020004;4188466;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;valvula_prot_cardiaca;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;valvula_prot_cardiaca;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;valvula_prot_cardiaca;value_link;0;SNOMED;implante de una válvula cardíaca protésica o un dispositivo sintético (procedimiento);47432005;4165384;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;valvula_prot_cardiaca;value_link;1;SNOMED;implante de una válvula cardíaca protésica o un dispositivo sintético (procedimiento);47432005;4165384;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;portador_otros_disposit;semantic_link;0;SNOMED;sin antecedentes de procedimientos (situación);416128008;4166732;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;portador_otros_disposit;semantic_link;1;OMOP Extension;History of event;OMOP5165859;1340204;Observation
+factores_de_riesgo_de_infeccion_por_bacteria_multi;portador_otros_disposit;value_link;0;SNOMED;procedimiento de inserción (procedimiento);782901001;37204303;Procedure
+factores_de_riesgo_de_infeccion_por_bacteria_multi;portador_otros_disposit;value_link;1;SNOMED;procedimiento de inserción (procedimiento);782901001;37204303;Procedure
+infecciones_previas;sindrome_infeccioso;semantic_link;1;SNOMED;Upper respiratory infection (disorder);54150009;4181583;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;2;SNOMED;infección de vías respiratorias inferiores (trastorno);50417007;4175297;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;3;SNOMED;infección de la vía urinaria superior (trastorno);422747000;4311853;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;4;SNOMED;enfermedad infecciosa de las vías urinarias inferiores (trastorno);4009004;4220328;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;5;SNOMED;Infectious disease of abdomen (disorder);128070006;4028062;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;6;SNOMED;Infection of biliary tract (disorder);846685008;3655135;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;7;SNOMED;Infection of skin (disorder);108365000;4029043;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;8;SNOMED;Infection of vascular catheter (disorder);429268001;4181811;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;9;SNOMED;Musculoskeletal infective disorder (disorder);312154004;4193176;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;10;SNOMED;Infectious disease of cardiovascular system (disorder);128402005;4028265;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;11;SNOMED;infección genital (trastorno);312155003;4193988;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;12;SNOMED;Infectious disease of central nervous system (disorder);128117002;4028070;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;13;SNOMED;Infection of uncertain etiology (disorder);428921007;4327875;Condition
+infecciones_previas;sindrome_infeccioso;semantic_link;14;SNOMED;fiebre de origen desconocido (hallazgo);7520000;4328373;Condition
+infecciones_previas;especimen_infecciones_previas;semantic_link;NA;SNOMED;espécimen (espécimen);123038009;4048506;Specimen
+infecciones_previas;cultivo_infecciones_previas;semantic_link;NA;LOINC;Bacteria identified in Specimen by Culture;6463-4;3002619;Measurement
+infecciones_previas;cultivo_infecciones_previas;value_link;NA;SNOMED; positivo (calificador);10828004;9191;Meas Value
+infecciones_previas;microorganism_infec_prev;semantic_link;NA;LOINC;Bacteria identified in Specimen by Culture;6463-4;3002619;Measurement
+infecciones_previas;microorganism_infec_prev;value_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+infecciones_previas;bmr_infec_previa;semantic_link;1;SNOMED;bacterias resistentes a múltiples agentes antibacterianos (organismo);713351000;37017134;Observation
+infecciones_previas;feno_resist_infec_prev;semantic_link;1;LOINC;Penicillin [Susceptibility];18964-7;3025242;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;2;LOINC;Methicillin [Susceptibility];18945-6;3009016;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;3;LOINC;Vancomycin [Susceptibility];19000-9;3014271;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;4;LOINC;Amoxicillin+Clavulanate [Susceptibility];18862-3;3035366;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;5;LOINC;Piperacillin+Tazobactam [Susceptibility];18970-4;3022324;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;6;LOINC;cefTRIAXone [Susceptibility];18895-3;3025361;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;7;LOINC;Cefepime [Susceptibility];18879-7;3006072;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;8;LOINC;cefTAZidime [Susceptibility];18893-8;3024521;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;9;LOINC;Ciprofloxacin [Susceptibility];18906-8;3023143;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;10;LOINC;Meropenem [Susceptibility];18943-1;3009196;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;11;LOINC;Ceftolozane+Tazobactam [Susceptibility];73602-5;43533627;Measurement
+infecciones_previas;feno_resist_infec_prev;semantic_link;12;LOINC;cefTAZidime+Avibactam [Susceptibility];73603-3;43533628;Measurement
+infecciones_previas;feno_resist_infec_prev;value_link;1;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;2;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;3;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;4;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;5;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;6;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;7;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;8;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;9;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;10;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;11;LOINC;Resistant;LA6676-6;45878594;Meas Value
+infecciones_previas;feno_resist_infec_prev;value_link;12;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;portador_agente_infeccioso;semantic_link;NA;SNOMED;Infectious disease carrier (finding);66598005;4280828;Observation
+colonizaciones_previas;especimen_coloniza_previas;semantic_link;NA;SNOMED;espécimen (espécimen);123038009;4048506;Specimen
+colonizaciones_previas;cultivo_colonizaciones_previas;semantic_link;NA;LOINC;Bacteria identified in Specimen by Culture;6463-4;3002619;Measurement
+colonizaciones_previas;cultivo_colonizaciones_previas;value_link;NA;SNOMED; positivo (calificador);10828004;9191;Meas Value
+colonizaciones_previas;microorganismo_colonizador;semantic_link;NA;LOINC;Bacteria identified in Specimen by Culture;6463-4;3002619;Measurement
+colonizaciones_previas;microorganismo_colonizador;value_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+colonizaciones_previas;bmr_colonizador;semantic_link;1;SNOMED;bacterias resistentes a múltiples agentes antibacterianos (organismo);713351000;37017134;Observation
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;1;LOINC;Penicillin [Susceptibility];18964-7;3025242;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;2;LOINC;Methicillin [Susceptibility];18945-6;3009016;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;3;LOINC;Vancomycin [Susceptibility];19000-9;3014271;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;4;LOINC;Amoxicillin+Clavulanate [Susceptibility];18862-3;3035366;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;5;LOINC;Piperacillin+Tazobactam [Susceptibility];18970-4;3022324;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;6;LOINC;cefTRIAXone [Susceptibility];18895-3;3025361;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;7;LOINC;Cefepime [Susceptibility];18879-7;3006072;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;8;LOINC;cefTAZidime [Susceptibility];18893-8;3024521;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;9;LOINC;Ciprofloxacin [Susceptibility];18906-8;3023143;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;10;LOINC;Meropenem [Susceptibility];18943-1;3009196;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;11;LOINC;Ceftolozane+Tazobactam [Susceptibility];73602-5;43533627;Measurement
+colonizaciones_previas;fenotipo_resist_colo;semantic_link;12;LOINC;cefTAZidime+Avibactam [Susceptibility];73603-3;43533628;Measurement
+colonizaciones_previas;fenotipo_resist_colo;value_link;1;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;2;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;3;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;4;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;5;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;6;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;7;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;8;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;9;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;10;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;11;LOINC;Resistant;LA6676-6;45878594;Meas Value
+colonizaciones_previas;fenotipo_resist_colo;value_link;12;LOINC;Resistant;LA6676-6;45878594;Meas Value
+tratamiento_antibiotico_previo;antimicrobiano_previo;semantic_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+tratamiento_antibiotico_previo;via_administ_antib_prev;semantic_link;1;SNOMED;vía oral (calificador);26643006;4132161;Route
+tratamiento_antibiotico_previo;via_administ_antib_prev;semantic_link;2;SNOMED;vía de administración intravenosa (calificador);47625008;4171047;Route
+tratamiento_antibiotico_previo;dias_trat_antimicrobiano;semantic_link;NA;SNOMED;duración del tratamiento (calificador);261774000;4129946;Observation
+tratamiento_antibiotico_previo;dias_trat_antimicrobiano;units_link;NA;UCUM;day;d;8512;Unit
+tratamiento_empirico;antimicrobiano_empirico;semantic_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+hemocultivo_de_urgencias;hemo_positivo_si_no;semantic_link;NA;LOINC;Bacteria identified in Blood by Culture;600-7;3023368;Measurement
+hemocultivo_de_urgencias;hemo_positivo_si_no;value_link;0;SNOMED;negativo (calificador);260385009;9189;Meas Value
+hemocultivo_de_urgencias;hemo_positivo_si_no;value_link;1;SNOMED;positivo (calificador);10828004;9191;Meas Value
+hemocultivo_de_urgencias;especimen_hemocultivo_urg;semantic_link;NA;SNOMED;espécimen de sangre (espécimen);119297000;4001225;Specimen
+hemocultivo_de_urgencias;microorganismo;semantic_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+hemocultivo_de_urgencias;bmr_etiologia;semantic_link;1;SNOMED;bacterias resistentes a múltiples agentes antibacterianos (organismo);713351000;37017134;Observation
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;1;LOINC;Penicillin [Susceptibility];18964-7;3025242;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;2;LOINC;Methicillin [Susceptibility];18945-6;3009016;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;3;LOINC;Vancomycin [Susceptibility];19000-9;3014271;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;4;LOINC;Amoxicillin+Clavulanate [Susceptibility];18862-3;3035366;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;5;LOINC;Piperacillin+Tazobactam [Susceptibility];18970-4;3022324;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;6;LOINC;cefTRIAXone [Susceptibility];18895-3;3025361;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;7;LOINC;Cefepime [Susceptibility];18879-7;3006072;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;8;LOINC;cefTAZidime [Susceptibility];18893-8;3024521;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;9;LOINC;Ciprofloxacin [Susceptibility];18906-8;3023143;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;10;LOINC;Meropenem [Susceptibility];18943-1;3009196;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;11;LOINC;Ceftolozane+Tazobactam [Susceptibility];73602-5;43533627;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;semantic_link;12;LOINC;cefTAZidime+Avibactam [Susceptibility];73603-3;43533628;Measurement
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;1;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;2;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;3;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;4;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;5;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;6;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;7;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;8;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;9;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;10;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;11;LOINC;Resistant;LA6676-6;45878594;Meas Value
+hemocultivo_de_urgencias;fenotipo_resistencia;value_link;12;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;tipo_cultivo;semantic_link;1;LOINC;Bacteria identified in Urine by Culture;630-4;3026008;Measurement
+otros_cultivos_en_urgencias;tipo_cultivo;semantic_link;2;LOINC;Bacteria identified in Specimen by Culture;6463-4;3002619;Measurement
+otros_cultivos_en_urgencias;tipo_cultivo;value_link;NA;SNOMED;positivo (calificador);10828004;9191;Meas Value
+otros_cultivos_en_urgencias;especimen_otros_cultivos_urg;semantic_link;1;SNOMED;muestra de orina (espécimen);122575003;4046280;Specimen
+otros_cultivos_en_urgencias;especimen_otros_cultivos_urg;semantic_link;2;SNOMED;espécimen (espécimen);123038009;4048506;Specimen
+otros_cultivos_en_urgencias;microorganismo_otros_cult;semantic_link;ALL;SNOMED;NA;EMBEDDED;NA;NA
+otros_cultivos_en_urgencias;bmr_etiologia_otros;semantic_link;1;SNOMED;bacterias resistentes a múltiples agentes antibacterianos (organismo);713351000;37017134;Observation
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;1;LOINC;Penicillin [Susceptibility];18964-7;3025242;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;2;LOINC;Methicillin [Susceptibility];18945-6;3009016;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;3;LOINC;Vancomycin [Susceptibility];19000-9;3014271;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;4;LOINC;Amoxicillin+Clavulanate [Susceptibility];18862-3;3035366;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;5;LOINC;Piperacillin+Tazobactam [Susceptibility];18970-4;3022324;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;6;LOINC;cefTRIAXone [Susceptibility];18895-3;3025361;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;7;LOINC;Cefepime [Susceptibility];18879-7;3006072;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;8;LOINC;cefTAZidime [Susceptibility];18893-8;3024521;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;9;LOINC;Ciprofloxacin [Susceptibility];18906-8;3023143;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;10;LOINC;Meropenem [Susceptibility];18943-1;3009196;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;11;LOINC;Ceftolozane+Tazobactam [Susceptibility];73602-5;43533627;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;semantic_link;12;LOINC;cefTAZidime+Avibactam [Susceptibility];73603-3;43533628;Measurement
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;1;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;2;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;3;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;4;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;5;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;6;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;7;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;8;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;9;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;10;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;11;LOINC;Resistant;LA6676-6;45878594;Meas Value
+otros_cultivos_en_urgencias;fenotipo_resistencia_otros;value_link;12;LOINC;Resistant;LA6676-6;45878594;Meas Value
